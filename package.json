@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "bundle": "bun build unused.tsx --complile --target=browser --outfile=bundle.js"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.44.7",
+    "@types/node": "16.18.58",
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "eslint": "^8.13.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "react": "^18.2.0",
+    "typescript": "4.9.5"
+  }
+}
